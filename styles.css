@@ -1,7 +1,7 @@
 body {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Source Code Pro', monospace;
     color: #e8e8e8;
-    background: linear-gradient(90deg, rgba(76, 114, 214, 1) 50%, rgba(129, 143, 168, 0.8677494199535962) 100%);
+    background: linear-gradient( 90deg, rgba(76, 114, 214, 1) 50%, rgba(129, 143, 168, 0.8677494199535962) 100%);
 }
 
 h1 {
@@ -9,6 +9,7 @@ h1 {
     margin: 20px auto;
     text-align: center;
     text-transform: capitalize;
+    text-shadow: 2px 2px black;
 }
 
 form {
@@ -26,6 +27,7 @@ input {
     border-radius: 10px;
     border: 3px solid #ccc;
     outline: none !important;
+    box-shadow: 10px 10px 5px grey;
 }
 
 input.valid {
@@ -37,7 +39,7 @@ input.invalid {
 }
 
 input+p {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Source Code Pro', monospace;
     font-size: 0.9em;
     font-weight: bold;
     text-align: center;
